@@ -20,12 +20,13 @@ const Main = () => {
                 >
                     A Web3 Community <br/> for Real Estate <br/> Investors
                 </Text>
-                <Button 
-                    className='roboto' fontSize={'1.2rem'} fontWeight='400' color={'#292D30'}
-                    bgColor={'#B1D4E5'} borderRadius='9px' p={'25px 15px'} _hover={{ bgColor: 'none' }}
+                <Link 
+                    className='roboto' fontSize={'1.2rem'} fontWeight='400' color={'#292D30'} target='_blank'
+                    bgColor={'#B1D4E5'} borderRadius='9px' p={'12px 15px'} _hover={{ bgColor: 'none' }}
+                    href='https://docs.google.com/forms/d/16QZiqesiw0-CVDlmN9zlED8fbKMET5cr278Coohxd6U/edit?ts=633cc2f7'
                 >
                     Join the Waitlist
-                </Button>
+                </Link>
                 <Text mt='30px' color='#fff' fontSize={'1.25rem'}>Coming 2023</Text>
             </Box>
             <Box>
