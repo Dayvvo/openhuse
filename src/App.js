@@ -1,10 +1,10 @@
 import './App.css';
-import Main from './Main';
+import Woke from './Woke';
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Woke />
     </div>
   );
 }
